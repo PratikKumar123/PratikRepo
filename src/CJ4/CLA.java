@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class CLA {
 
 	public static void main(String args[]) {
-
+		System.out.println("random text");
 		Scanner sc = new Scanner(System.in);
 		
 		Random r = new Random();
