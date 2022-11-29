@@ -1,12 +1,14 @@
 package CollectionsTask;
 
 import java.util.Scanner;
+//Create a method which accepts an integer array and removes all the duplicates in the array.
+//Return the resulting array in descending order
 
 public class Array {
 	
 	public static void  duplicate (int[] array, int n) {
 		int swap;
-		//lets  sort
+		//lets  sort in descending order
 		for(int i=0;i<n;i++) {
 			for(int j =0; j<n-1;j++) {
 				if(array[j]<array[j+1]) {

@@ -1,5 +1,5 @@
 package CJ5;
-
+// program on encapsulation
 import java.util.Scanner;
 
 class Std{   

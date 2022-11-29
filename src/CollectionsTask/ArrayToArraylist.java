@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
-
+//WAP to Convert an Array to ArrayList in Java .Use three ways for conversion and its vice versa.
 public class ArrayToArraylist {
 
 	public static void main(String[] args) {

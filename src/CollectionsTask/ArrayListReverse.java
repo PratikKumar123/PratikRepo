@@ -3,7 +3,7 @@ package CollectionsTask;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
-
+//Write a program to reverse ArrayList in java?
 public class ArrayListReverse {
 
 	public static void main(String[] args) {

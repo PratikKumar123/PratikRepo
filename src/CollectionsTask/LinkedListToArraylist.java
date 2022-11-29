@@ -3,7 +3,7 @@ package CollectionsTask;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner;
-
+//Write a program to convert LinkedList to ArrayList?
 public class LinkedListToArraylist {
 
 	public static void main(String[] args) {

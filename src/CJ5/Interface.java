@@ -1,7 +1,7 @@
 package CJ5;
 
 
-
+//how to use interface
 interface Animal
 {
 	public void run();

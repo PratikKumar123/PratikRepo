@@ -3,7 +3,7 @@ package CJ4;
 public class Switch {
 
 	public static void main(String[] args) {
-		float day=8.1f;
+		float day=8.1f; // not taking float value
 		switch(day) {
 		case 1: System.out.println("MON");
 				break;

@@ -3,6 +3,12 @@ package CollectionsTask;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Scanner;
+// WAP to map multiple countries with their respective capitals using map .Iterating them using
+//1.foreach loop
+//2.keyset iterator
+//3.entryset iterator along with foreach
+//4.EntrySet along with Java iterator
+
 
 public class Countries {
 

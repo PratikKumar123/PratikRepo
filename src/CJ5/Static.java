@@ -1,8 +1,8 @@
 package CJ5;
-
-public class Static {
-
-		static {
+//static keyword
+public class Static { //static class
+	static int a =10; //static variable
+		static {//static block
 			System.out.println("hi");
 		}
 

@@ -2,7 +2,7 @@ package CJ4;
 
 import java.util.Random;
 import java.util.Scanner;
-
+//playing with random numbers
 public class CLA {
 
 	public static void main(String args[]) {

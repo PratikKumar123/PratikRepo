@@ -1,5 +1,5 @@
 package CJ5;
-
+//Program on  Abstraction
 
 abstract class Vehicle{
 	abstract void start();

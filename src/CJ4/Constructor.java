@@ -1,6 +1,7 @@
 package CJ4;
 
 public class Constructor {
+	//using constructor
 	String name;
 	int id;
 	static String cmp="Techouts";

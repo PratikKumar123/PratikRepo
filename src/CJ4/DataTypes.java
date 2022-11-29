@@ -1,7 +1,7 @@
 package CJ4;
 
 public class DataTypes {
-	
+	//data types in java
 	
 	public static void main(String args[]) {
 		boolean a = true;

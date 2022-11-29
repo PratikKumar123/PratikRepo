@@ -1,5 +1,5 @@
 package CJ6;
-
+// implementing exceptional handling method 
 public class Ex {
 
 	public static void main(String[] args) {

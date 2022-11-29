@@ -1,5 +1,5 @@
 package CJ5;
-
+//using switch and break
 import java.util.Scanner;
 
 public class Switch {

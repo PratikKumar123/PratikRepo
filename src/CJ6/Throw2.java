@@ -1,5 +1,5 @@
 package CJ6;
-
+//some of the exception
 import java.util.Scanner;
 
 class Excep{

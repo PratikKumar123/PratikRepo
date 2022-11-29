@@ -1,6 +1,6 @@
 package CJ6;
 
-
+//how to throw an exception
  public class Throw {
 	static void var(int age) {
 		if(age<18) {
