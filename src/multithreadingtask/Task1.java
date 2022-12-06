@@ -1,10 +1,10 @@
 package multithreadingtask;
 
 class Add implements Runnable{
-	double a ;
+	double a;
 	double b;
 	double c;
-	
+	static double  result;
 	Add(double a ,double b,double c){
 		this.a=a;
 		this.b=b;
@@ -12,29 +12,35 @@ class Add implements Runnable{
 	}
 	public void run() {
 		
-		double result = a+b+c;
-		System.out.println(result);
+		 result = a+b+c;
 	}
 	
 }
 
 class Avg extends Add implements Runnable {
 	
-
+	static double  result2;
 	
 	Avg(double a ,double b,double c){
 		super(a,b,c);
 	}
 	public void run() {
 		
-		double result2 = a+b+c/3;
-		System.out.println(result2);
+		 result2 = a+b+c/3;
 		
 	}
 	
 }
+class Display implements Runnable{
 
- public class Display {
+	public void run() {
+		System.out.println(Avg.result);
+		System.out.println(Avg.result2);
+	}
+	
+}
+
+ public class Task1{
 	
 
 	public static void main(String[] args) {
@@ -47,6 +53,10 @@ class Avg extends Add implements Runnable {
 		Avg av = new Avg(2,3,4);
 		Thread th1 = new  Thread(av);
 		th1.start();
+		
+		Display d = new Display();
+		Thread th3 = new  Thread(d);
+		th3.start();
 		
 		
 		
