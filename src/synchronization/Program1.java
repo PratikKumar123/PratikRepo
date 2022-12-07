@@ -12,7 +12,9 @@ class Multiply{
 				
 				Thread.sleep(500);  
 				
-			}catch(Exception e){System.out.println(e);}  
+			}catch(Exception e)
+			{
+				System.out.println(e);}  
 		}  
  }  
 }  
@@ -21,6 +23,7 @@ class Thread1 extends Thread{
 	Thread1(Multiply p){  
 		this.p=p;  
 	}  
+	@Override
 	public void run(){  
 		p.Multiply(5);  
 		}    
@@ -31,6 +34,7 @@ class Thread2 extends Thread{
 		Thread2(Multiply p){  
 			this.p=p;  
 		}  
+		@Override
 		public void run(){  
 			p.Multiply(8);  
 		}  
@@ -43,8 +47,10 @@ public class Program1{
 			
 			Multiply obj = new Multiply();//only one object 
 			
-			Thread1 p1=new Thread1(obj);  
+			Thread1 p1=new Thread1(obj);
+			
 			Thread2 p2=new Thread2(obj);  
+			
 			p1.start();  
 			p2.start();
 		}  

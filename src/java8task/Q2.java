@@ -5,11 +5,11 @@ import java.util.ArrayList;
 //What are the most commonly used Intermediate operations
 //give an example for 1.distinct() 2.limit() 3.skip() 4. peek() 5.flatMap()
 
-public class Q3 {
+public class Q2 {
 	
 	public static void main(String[] args) {
 		ArrayList<Integer> al = new ArrayList<>();
-		
+		 
 		for(int i =1;i<=100;i++) {
 			al.add(i);
 		}
