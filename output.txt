@@ -1,0 +1,13 @@
+	 BASEMENT 1 FOR BIKES :
+Total slot available :15
+
+Enter how many bikes slots you want
+Book slot for Bike then click 1 :
+
+Book slot for Cars then click 2 :
+Book slot for Bike then click 1 :
+
+Book slot for Cars then click 2 :
+Book slot for Bike then click 1 :
+
+Book slot for Cars then click 2 :

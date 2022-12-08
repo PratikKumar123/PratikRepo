@@ -38,9 +38,7 @@ public class Array {
 			array[i]=store[i];
 			System.out.println(store[i]);
 		}
-		
-		
-		
+
 	}
 
 	public static void main(String[] args) {
