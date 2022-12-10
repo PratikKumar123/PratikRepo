@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 //allMatch()
 //noneMatch()
 //findAny()
-//findFrist();
+//findFrist()
 public class Q1 {
 
 	public static void main(String[] args) {
