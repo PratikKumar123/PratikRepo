@@ -21,6 +21,7 @@ class Audi {
 		System.out.println("Click 1 to buy Audi A4 \t Available Quantity of this car is :  "+quantity1);
 		System.out.println("Click 2 to buy Audi Q7 \t Available Quantity of this car is : "+quantity2);
 		System.out.println("Click 3 to buy Audi Q3 \t Available Quantity of this car is :     "+quantity3);
+		
 		int Check = sc.nextInt();
 
 		try {
