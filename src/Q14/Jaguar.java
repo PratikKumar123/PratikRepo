@@ -39,6 +39,7 @@ class Jaguar {
 				System.out.println("Congrats you have succcessfully bought  this car");
 				System.out.println("Left Quantity of this car is :" + jaguar.get("Jaguar XF"));
 				break;
+				
 			case 3:
 				System.out.println("You are going to buy  Jaguar F-Pace");
 				quantity3 = quantity3 - 1;
@@ -56,9 +57,9 @@ class Jaguar {
 			System.out.println(e.getMessage());
 		}
 		
-		System.out.println("IF YOU WANT TO BUY MORE THEN CLICK Y  or else click any key");
+		System.out.println("IF YOU WANT TO BUY MORE THEN CLICK Y or y or else click any key");
 		c= sc.next().charAt(0);
-		} while(c== 'Y');
+		} while(c== 'Y' || c =='y');
 	}
 }
 

@@ -56,8 +56,8 @@ class Mercedes {
 			System.out.println(e.getMessage());
 		}
 		
-		System.out.println("IF YOU WANT TO BUY MORE THEN CLICK Y  or else click any key");
+		System.out.println("IF YOU WANT TO BUY MORE THEN CLICK Y or y  or else click any key");
 		c= sc.next().charAt(0);
-		} while(c== 'Y');
+		} while(c== 'Y' || c =='y');
 	}
 }

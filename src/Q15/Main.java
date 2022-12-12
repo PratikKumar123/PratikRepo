@@ -6,8 +6,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
-		
+		char c;
+		do {
+			
 		System.out.println("Book slot for Bike then click 1 :\n");
 		
 		System.out.println("Book slot for Cars then click 2 :");
@@ -27,6 +28,10 @@ public class Main {
 		default : System.out.println("Wrong no Enter no either 1 or 2 only");
 		
 		}
+		System.out.println("Repeat this process click y");
+		 c = sc.next().charAt(0);
+		
+		}while(c=='y');
 		
 		
 
