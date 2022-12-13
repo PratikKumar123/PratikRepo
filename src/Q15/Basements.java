@@ -15,6 +15,7 @@ public class Basements {
 		System.out.println("Enter how many bikes slots you want");
 		
 		int bikesl = sc.nextInt();
+		System.out.println("Enter Unique id for "+ bikesl +"Bikes ");
 		
 		for(int i =0 ; i<=bikesl; i++) {
 			

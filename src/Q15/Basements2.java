@@ -14,7 +14,7 @@ public class Basements2 {
 		System.out.println("Enter how many cars slots you want");
 		
 		int carslength = sc.nextInt();
-		
+		System.out.println("Enter Unique id for "+ carslength +"Cars ");
 		for(int i =0 ; i<=carslength; i++) {
 			
 			carsid[i] = sc.nextInt();
