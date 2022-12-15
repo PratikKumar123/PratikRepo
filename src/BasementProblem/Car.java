@@ -27,7 +27,7 @@ public class Car {
 
 			while (i2.hasNext()) {
 
-				System.out.println(i2.next());
+				System.out.println("Slot : > "+i2.next());
 			}
 
 			System.out.println("Enter slot no between 1 to 15 , to book your slot for car ");

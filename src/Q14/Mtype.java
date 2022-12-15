@@ -30,6 +30,7 @@ public class Mtype {
 				break;
 				
 			default: System.out.println("Enter right type no ");
+			
 			}
 			
 

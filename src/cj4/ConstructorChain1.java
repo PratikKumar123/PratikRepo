@@ -29,7 +29,6 @@ public class ConstructorChain1 {
 	public static void main(String[] args) {
 		
 		ConstructorChain a = new ConstructorChain();
-		
 
 	}
 
