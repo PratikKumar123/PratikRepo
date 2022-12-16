@@ -1,7 +1,7 @@
 package multithreadingtask;
 
 
-class LifeCycle extends Thread{  // aby extending Thread class we can create a thread
+class LifeCycle extends Thread{  // by extending Thread class we can create a thread
 	
 	public void run() {/// run is a method where our thread task is runnning
 		
