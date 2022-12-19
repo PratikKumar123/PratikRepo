@@ -32,7 +32,7 @@ public class LambdaExample {
 		A a;
 		
 //		a = new A() {
-//
+//		
 //			@Override
 //			public void show() {
 //				System.out.println("hello");
